@@ -5,6 +5,7 @@ function getDetailsData() {
   axios.get(`http://localhost:3004/${id}`).then(function (response) {
     var movie = response.data;
     console.log(movie);
+    document.getElementById("details").innerHTML = `<h1 class="movie-title">${movie.name}</h1>`
     listFormatedDetails(movie);
     listFormatedRelatedMovies(movie);
     listFormatedComments(movie);
@@ -15,7 +16,7 @@ function getDetailsData() {
 
 function listFormatedDetails(obj) {
   var str = "";
-  str = `<h1 class="movie-title">${obj.name}</h1>
+  str = `
   <div class="basic-info-box">
     <img class="movie-img" src=${obj.imgUrl} alt="img">
     <ul class="basic-info-list">
@@ -29,7 +30,7 @@ function listFormatedDetails(obj) {
     </ul>
   </div>`;
   var detailsBox = document.getElementById("details");
-  detailsBox.innerHTML = str;
+  detailsBox.innerHTML += str;
 }
 
 function listFormatedRelatedMovies(obj) {
