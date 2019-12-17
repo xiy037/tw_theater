@@ -1,0 +1,23 @@
+{
+  "name": "tw_theater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3004"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "json-server": "^0.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiy037/tw_theater.git"
+  },
+  "author": "Xiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiy037/tw_theater/issues"
+  },
+  "homepage": "https://github.com/xiy037/tw_theater#readme"
+}

@@ -1,0 +1,42 @@
+{
+  "comingSoon": [
+    {
+      "id": 101,
+      "name": "星球大战9：天行者崛起",
+      "imgUrl": "https://img1.doubanio.com/view/photo/m/public/p2572372379.webp",
+      "movieDate": "2019/12/18",
+      "movieArea": "欧美"
+    },
+    {
+      "id": 102,
+      "name": "叶问4：完结篇",
+      "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2577437186.webp",
+      "movieDate": "2019/12/20",
+      "movieArea": "国产"
+    },
+    { 
+      "id": 103,
+      "name": "惊涛迷局 Serenity ",
+      "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2577342316.webp",
+      "movieDate": "2019/12/20",
+      "movieArea": "欧美"
+    },
+    { 
+      "id": 104,
+      "name": "教授与疯子",
+      "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2577347230.webp",
+      "movieDate": "2019/12/24",
+      "movieArea": "欧美"
+    },
+    { 
+      "id": 105,
+      "name": "利刃破冰",
+      "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2573582509.webp",
+      "movieDate": "2019/12/25",
+      "movieArea": "国产"
+    }
+  ],
+  "action": [],
+  "romance": [],
+  "drama": [] 
+}

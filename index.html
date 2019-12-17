@@ -3,6 +3,8 @@
   <head>
     <title>TW Theater</title>
     <link rel="stylesheet" type="text/css" href="css/index.css"> 
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
   </head>
   <body>
     <header class="header-box">
@@ -18,34 +20,44 @@
       <input type="button" class="category-btn" value="热门影评">
     </nav>
     <nav class="movielist-nav">
-      <h2>动作</h2>
+      <h2 class="list-title">即将上映</h2>
       <input type="button" class="list-btn" value="热映">
       <input type="button" class="list-btn" value="国产">
       <input type="button" class="list-btn" value="欧美">
       <input type="button" class="list-btn" value="日韩">
     </nav>
-    <div class="movielist-box">
-
+    <div class="movielist-box" id="coming-soon-list">
     </div>
+
     <nav class="movielist-nav">
-      <h2>爱情</h2>
-      <input type="button" class="list-btn" value="热映">
+      <h2 class="list-title">动作</h2>
+      <input type="button" class="list-btn" value="经典">
       <input type="button" class="list-btn" value="国产">
       <input type="button" class="list-btn" value="欧美">
       <input type="button" class="list-btn" value="日韩">
     </nav>
-    <div class="movielist-box">
-
+    <div class="movielist-box" id="action-list">
     </div>
+
     <nav class="movielist-nav">
-      <h2>剧情</h2>
-      <input type="button" class="list-btn" value="热映">
+      <h2 class="list-title">爱情</h2>
+      <input type="button" class="list-btn" value="经典">
       <input type="button" class="list-btn" value="国产">
       <input type="button" class="list-btn" value="欧美">
       <input type="button" class="list-btn" value="日韩">
     </nav>
-    <div class="movielist-box">
-
+    <div class="movielist-box" id="romance-list">
     </div>
+
+    <nav class="movielist-nav">
+      <h2 class="list-title">剧情</h2>
+      <input type="button" class="list-btn" value="经典">
+      <input type="button" class="list-btn" value="国产">
+      <input type="button" class="list-btn" value="欧美">
+      <input type="button" class="list-btn" value="日韩">
+    </nav>
+    <div class="movielist-box" id="drama-list">
+    </div>
+
   </body>
 </html>
