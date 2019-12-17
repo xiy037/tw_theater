@@ -1,42 +1,167 @@
 {
-  "comingSoon": [
-    {
-      "id": 101,
-      "name": "星球大战9：天行者崛起",
-      "imgUrl": "https://img1.doubanio.com/view/photo/m/public/p2572372379.webp",
-      "movieDate": "2019/12/18",
-      "movieArea": "欧美"
-    },
-    {
-      "id": 102,
-      "name": "叶问4：完结篇",
-      "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2577437186.webp",
-      "movieDate": "2019/12/20",
-      "movieArea": "国产"
-    },
-    { 
-      "id": 103,
-      "name": "惊涛迷局 Serenity ",
-      "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2577342316.webp",
-      "movieDate": "2019/12/20",
-      "movieArea": "欧美"
-    },
-    { 
-      "id": 104,
-      "name": "教授与疯子",
-      "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2577347230.webp",
-      "movieDate": "2019/12/24",
-      "movieArea": "欧美"
-    },
-    { 
-      "id": 105,
-      "name": "利刃破冰",
-      "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2573582509.webp",
-      "movieDate": "2019/12/25",
-      "movieArea": "国产"
-    }
-  ],
-  "action": [],
-  "romance": [],
-  "drama": [] 
+  "movieList": {
+    "comingSoon": [
+      {
+        "id": 101,
+        "name": "星球大战9：天行者崛起",
+        "imgUrl": "https://img1.doubanio.com/view/photo/m/public/p2572372379.webp",
+        "movieDate": "2019/12/18",
+        "movieArea": "欧美"
+      },
+      {
+        "id": 102,
+        "name": "叶问4：完结篇",
+        "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2577437186.webp",
+        "movieDate": "2019/12/20",
+        "movieArea": "国产"
+      },
+      {
+        "id": 103,
+        "name": "惊涛迷局 Serenity ",
+        "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2577342316.webp",
+        "movieDate": "2019/12/20",
+        "movieArea": "欧美"
+      },
+      {
+        "id": 104,
+        "name": "教授与疯子",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2577347230.webp",
+        "movieDate": "2019/12/24",
+        "movieArea": "欧美"
+      },
+      {
+        "id": 105,
+        "name": "利刃破冰",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2573582509.webp",
+        "movieDate": "2019/12/25",
+        "movieArea": "国产"
+      }
+    ],
+    "action": [
+      {
+        "id": 201,
+        "name": "碟中谍6：全面瓦解",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2529365085.webp",
+        "movieDate": "2018/08/31",
+        "movieArea": "欧美",
+        "movieScore": 8.1
+      },
+      {
+        "id": 202,
+        "name": "头号玩家",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2516578307.webp",
+        "movieDate": "2018/03/30",
+        "movieArea": "欧美",
+        "movieScore": 8.7
+      },
+      {
+        "id": 203,
+        "name": "动物世界",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2525528688.webp",
+        "movieDate": "2018/06/29",
+        "movieArea": "国产",
+        "movieScore": 7.2
+      },
+      {
+        "id": 204,
+        "name": "复仇者联盟4：终局之战 ",
+        "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2552058346.webp",
+        "movieDate": "2018/04/24",
+        "movieArea": "国产",
+        "movieScore": 8.5
+      },
+      {
+        "id": 205,
+        "name": "蜘蛛侠：英雄远征",
+        "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2558293106.webp",
+        "movieDate": "2018/06/28",
+        "movieArea": "欧美",
+        "movieScore": 7.8
+      }
+    ],
+    "romance": [
+      {
+        "id": 301,
+        "name": "爱你，西蒙",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2523592367.webp",
+        "movieDate": "2018/03/16",
+        "movieArea": "欧美",
+        "movieScore": 8.3
+      },
+      {
+        "id": 302,
+        "name": "少年的你",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2572166063.webp",
+        "movieDate": "2019/10/25",
+        "movieArea": "国产",
+        "movieScore": 8.4
+      },
+      {
+        "id": 303,
+        "name": "阿拉丁",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2553992741.webp",
+        "movieDate": "2019/05/24",
+        "movieArea": "欧美",
+        "movieScore": 7.6
+      },
+      {
+        "id": 304,
+        "name": "我想吃掉你的胰脏",
+        "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2545571306.webp",
+        "movieDate": "2019/01/18",
+        "movieArea": "日韩",
+        "movieScore": 6.9
+      },
+      {
+        "id": 305,
+        "name": "最普通的恋爱",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2570803082.webp",
+        "movieDate": "2019/10/02",
+        "movieArea": "日韩",
+        "movieScore": 7.1
+      }
+    ],
+    "drama": [
+      {
+        "id": 401,
+        "name": "少年的你",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2572166063.webp",
+        "movieDate": "2019/10/25",
+        "movieArea": "国产",
+        "movieScore": 8.4
+      },
+      {
+        "id": 402,
+        "name": "哪吒之魔童降世",
+        "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2563780504.webp",
+        "movieDate": "2019/07/26",
+        "movieArea": "国产",
+        "movieScore": 8.5
+      },
+      {
+        "id": 403,
+        "name": "82年生的金智英",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2570137991.webp",
+        "movieDate": "2019/11/07",
+        "movieArea": "日韩",
+        "movieScore": 8.7
+      },
+      {
+        "id": 405,
+        "name": "狮子王",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2559742751.webp",
+        "movieDate": "2019/07/12",
+        "movieArea": "欧美",
+        "movieScore": 7.4
+      },
+      {
+        "id": 406,
+        "name": "痛苦与荣耀",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2554080075.webp",
+        "movieDate": "2019/03/13",
+        "movieArea": "欧美",
+        "movieScore": 8.6
+      }
+    ]
+  }
 }
