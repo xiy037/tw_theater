@@ -26,6 +26,9 @@ footer {
 .logo {
   color: #6696ff;
 }
+.logo-link {
+  text-decoration: none;
+}
 .search-input {
   margin-left: 20px;
   width: 50%;
