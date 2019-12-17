@@ -163,5 +163,17 @@
         "movieScore": 8.6
       }
     ]
+  },
+  "101": {
+    "name": "星球大战9：天行者崛起",
+    "imgUrl": "https://img1.doubanio.com/view/photo/m/public/p2572372379.webp",
+    "movieDate": "2019/12/18",
+    "movieArea": "欧美"
+  },
+  "102": {
+    "name": "叶问4：完结篇",
+    "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2577437186.webp",
+    "movieDate": "2019/12/20",
+    "movieArea": "国产"
   }
 }
