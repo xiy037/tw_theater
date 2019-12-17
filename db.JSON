@@ -174,6 +174,60 @@
     "name": "叶问4：完结篇",
     "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2577437186.webp",
     "movieDate": "2019/12/20",
-    "movieArea": "国产"
+    "movieArea": "国产",
+    "details": "因故来到美国唐人街的叶问，意外卷入一场当地军方势力与华人武馆的纠纷，面对日益猖狂的民族歧视与压迫，叶问挺身而出，在美国海军陆战队军营拼死一战，以正宗咏春，向世界证明了中国功夫。"
+  },
+  "402": {
+    "name": "哪吒之魔童降世",
+    "director": "饺子",
+    "actors": "吕艳婷/囧森瑟夫/瀚墨/陈浩/绿绮/张珈铭 等",
+    "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2563780504.webp",
+    "movieDate": "2019/07/26",
+    "movieArea": "国产",
+    "movieScore": 8.5,
+    "link": "https://movie.douban.com/subject/26794435/",
+    "details": "天地灵气孕育出一颗能量巨大的混元珠，元始天尊将混元珠提炼成灵珠和魔丸，灵珠投胎为人，助周伐纣时可堪大用；而魔丸则会诞出魔王，为祸人间。元始天尊启动了天劫咒语，3年后天雷将会降临，摧毁魔丸。太乙受命将灵珠托生于陈塘关李靖家的儿子哪吒身上。然而阴差阳错，灵珠和魔丸竟然被掉包。本应是灵珠英雄的哪吒却成了混世大魔王。调皮捣蛋顽劣不堪的哪吒却徒有一颗做英雄的心。然而面对众人对魔丸的误解和即将来临的天雷的降临，哪吒是否命中注定会立地成魔？他将何去何从？",
+    "relatedMovies": [
+      {
+        "name": "疯狂动物城",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2315672647.webp"
+      },
+      {
+        "name": "罗小黑战记",
+        "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2568288336.webp"
+      },
+      {
+        "name": "天空之城",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1446261379.webp"
+      },
+      { 
+        "name": "神偷奶爸",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p792776858.webp"
+      },
+      {
+        "name": "千与千寻",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2557573348.webp"
+      }
+    ],
+    "comments": [
+      {
+        "userName": "影志",
+        "commentDate": "2019/07/14",
+        "score": 10,
+        "comment": "不成，功变成仁、《神仙的自我修养》、“申公公”、内服外敷效果都一样的解药…前面快笑死；指点江山笔、英气的敖丙、猪鼻子倒带器…中间各种神来之笔；“人心的偏见是座大山，你是谁只有你自己才说了算”、父母面前的生离死别…结尾又被感动得一把老泪。老妈的性格更立体，老爸李靖对哪吒说你的真实身份其实是…时，生怕他说出个“蛋”，这是这部毫不正经却又硬气热血至死的片子能干出来的事。集丧逼和燃于一身，在哪吒面前，没人帅的起来！锁定今年最佳国产动画。"
+      },
+      {
+        "userName": "徐若风",
+        "commentDate": "2019/07/18",
+        "score": 8,
+        "comment": "客观上的确是目前国产三维动画中的最佳。和年初的《白蛇》一道，富足想象力之下的经典魔改，在人物、情节和视听呈现上都冲着一股劲。不夸张地说，这部作品在今年全球范围动画中比，都可以排到最前列。但还是有些遗憾，双生的概念没有做得更加复杂深刻、部分低俗笑料虽有趣但跳线。可能是我期待太高了。"
+      },
+      {
+        "userName": "⎝丁凯乐⎠",
+        "commentDate": "2019/07/16",
+        "score": 10,
+        "comment": "实名反对最赞说烂片的评论，这是人类无法逃脱的真香定律！ 看完觉得不值票钱可以来快乐星球砍我!"
+      }
+    ]
   }
 }

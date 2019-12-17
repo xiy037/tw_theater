@@ -5,6 +5,7 @@
 body {
   width: 1000px;
   margin: auto;
+  font-family: Helvetica,Arial,sans-serif;
 }
 footer {
   margin-top: 30px;
@@ -75,6 +76,7 @@ footer {
 .list-title {
   padding-right: 10px;
   font-size: 20px;
+  color: #4d4d4d;
 }
 .movielist-box {
   display: flex;
