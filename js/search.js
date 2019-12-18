@@ -11,7 +11,6 @@ function showSearchResult() {
     for (var x in data) {
       resultArray = resultArray.concat(filterData(data[x], userVal));
     }
-    console.log(resultArray);
     formatResult(resultArray);
   }).catch(function (error) {
     console.log(error);
@@ -39,8 +38,14 @@ function formatResult(arr) {
     </div>
     `
   }
-  document.getElementById("search-results").innerHTML = str;
+  if (str) {
+    document.getElementById("search-results").innerHTML = str;
+  } else {
+    document.getElementById("search-results").innerHTML = `<p>未找到相关结果，请尝试其它关键词</p>`
+  }
+ 
 }
+
 
 function searchMovie() {
   var a = event.target.parentNode;
