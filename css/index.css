@@ -115,3 +115,6 @@ ul {
 .movie-dscpt {
   color: black;
 }
+.link {
+  text-decoration: none;
+}

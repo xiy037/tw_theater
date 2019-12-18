@@ -4,7 +4,6 @@ function getDetailsData() {
   var id = infoStr.split("=")[1];
   axios.get(`http://localhost:3004/${id}`).then(function (response) {
     var movie = response.data;
-    console.log(movie);
     document.getElementById("details").innerHTML = `<h1 class="movie-title">${movie.name}</h1>`
     listFormatedDetails(movie);
     listFormatedRelatedMovies(movie);
@@ -86,4 +85,11 @@ function showMore() {
 function showLess() {
   event.target.parentNode.style.display = "none";
   event.target.parentNode.parentNode.children[1].style.display = "inline";
+}
+
+function searchMovie() {
+  var a = event.target.parentNode;
+  var val = document.getElementById("search-val").value;
+  a.href = `search.html?value=${val}`
+  document.getElementById("search-val").value = "";
 }

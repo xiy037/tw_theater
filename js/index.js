@@ -33,3 +33,10 @@ function listInfo(array, idName, tag) {
   var box = document.getElementById(idName);
   box.innerHTML = str;
 }
+
+function searchMovie() {
+  var a = event.target.parentNode;
+  var val = document.getElementById("search-val").value;
+  a.href = `search.html?value=${val}`
+  document.getElementById("search-val").value = "";
+}
