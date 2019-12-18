@@ -1,0 +1,16 @@
+.result-img {
+  width: 75px;
+  height: 100px;
+}
+.search-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.result-item {
+  width: 30%;
+  display: flex;
+  margin: 1.5%;
+}
+.item-list {
+  margin-left: 10px;
+}

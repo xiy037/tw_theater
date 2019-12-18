@@ -162,6 +162,24 @@
         "movieArea": "欧美",
         "movieScore": 8.6
       }
+    ],
+    "other": [
+      {
+        "id": 501,
+        "name": "哪吒闹海",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2516566783.webp",
+        "movieDate": "1979/05/19",
+        "movieArea": "国产",
+        "movieScore": 9.0
+      },
+      {
+        "id": 502,
+        "name": "少女哪吒",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2247672271.webp",
+        "movieDate": "2014/11/16",
+        "movieArea": "国产",
+        "movieScore": 6.5
+      }
     ]
   },
   "101": {
