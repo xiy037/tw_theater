@@ -14,12 +14,12 @@
       <input type="text" class="search-input" id="search-val" placeholder="请输入电影名">
       <a id="search-link" class="link" onclick="searchMovie()"><input type="button" class="search-btn" value="搜索"></a>
     </header>
-    <nav class="category-box">
-      <input type="button" class="category-btn" value="热映">
-      <input type="button" class="category-btn" value="电影">
-      <input type="button" class="category-btn" value="电视剧">
-      <input type="button" class="category-btn" value="排行榜">
-      <input type="button" class="category-btn" value="热门影评">
+    <nav class="category-box" onclick="exploreMore()">
+      <input type="button" class="category-btn" value="热映" data-id="hotList">
+      <input type="button" class="category-btn" value="电影" data-id="movieList">
+      <input type="button" class="category-btn" value="电视剧" data-id="tvList">
+      <input type="button" class="category-btn" value="排行榜" data-id="rankingList">
+      <input type="button" class="category-btn" value="热门影评" data-id="reviewList">
     </nav>
     <h2 class="h2-title" id="search-title">搜索</h2>
     <div class="search-box" id="search-results">

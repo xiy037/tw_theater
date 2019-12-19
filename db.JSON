@@ -271,5 +271,42 @@
         "comment": "实名反对最赞说烂片的评论，这是人类无法逃脱的真香定律！ 看完觉得不值票钱可以来快乐星球砍我!"
       }
     ]
+  },
+  "tvList": {
+    "tvSeries": [],
+    "anime": [],
+    "Documentary": []
+  },
+  "rankingList": {
+    "movieRanking": [
+      {
+        "id": 402,
+        "name": "哪吒之魔童降世",
+        "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2563780504.webp",
+        "movieDate": "2019/07/26",
+        "movieArea": "国产",
+        "movieScore": 8.5
+      },
+      {
+        "id": 401,
+        "name": "少年的你",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2572166063.webp",
+        "movieDate": "2019/10/25",
+        "movieArea": "国产",
+        "movieScore": 8.4
+      },
+      {
+        "id": 203,
+        "name": "动物世界",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2525528688.webp",
+        "movieDate": "2018/06/29",
+        "movieArea": "国产",
+        "movieScore": 7.2
+      }
+    ]
+  },
+  "reviewList": {
+    "movieReview": [],
+    "tvReview": []
   }
 }

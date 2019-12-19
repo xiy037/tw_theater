@@ -58,3 +58,9 @@ function showTaggedMovieList() {
     }
   }
 }
+
+function exploreMore() {
+  var tag = event.target.getAttribute("data-id");
+  var url = `explore.html?id=${tag}`;
+  window.open(url, "_self");
+}
