@@ -10,6 +10,7 @@ function getDetailsData() {
     listFormatedComments(movie);
   }).catch(function(error) {
     console.log("error");
+    document.getElementById("details").innerHTML += "详情页面添加中......"
   });
 }
 

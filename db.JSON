@@ -67,7 +67,7 @@
         "name": "复仇者联盟4：终局之战 ",
         "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2552058346.webp",
         "movieDate": "2018/04/24",
-        "movieArea": "国产",
+        "movieArea": "欧美",
         "movieScore": 8.5
       },
       {
@@ -76,6 +76,30 @@
         "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2558293106.webp",
         "movieDate": "2018/06/28",
         "movieArea": "欧美",
+        "movieScore": 7.8
+      },
+      {
+        "id": 206,
+        "name": "海王",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2541280047.webp",
+        "movieDate": "2018/12/07",
+        "movieArea": "欧美",
+        "movieScore": 7.6
+      },
+      {
+        "id": 207,
+        "name": "双子杀手 ",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2570906505.webp",
+        "movieDate": "2019/10/18",
+        "movieArea": "欧美",
+        "movieScore": 7.1
+      },
+      {
+        "id": 208,
+        "name": "魔女",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2524056711.webp",
+        "movieDate": "2018/06/28",
+        "movieArea": "日韩",
         "movieScore": 7.8
       }
     ],

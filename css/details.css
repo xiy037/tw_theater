@@ -72,6 +72,9 @@ footer {
 .details-box {
   height: 450px;
 }
+.comment-box {
+  min-height: 30vh;
+}
 .movie-title,
 .h2-title {
   padding: 20px 0;
