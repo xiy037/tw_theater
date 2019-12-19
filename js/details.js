@@ -97,6 +97,7 @@ function searchMovie() {
 
 function exploreMore() {
   var tag = event.target.getAttribute("data-id");
-  var url = `explore.html?id=${tag}`;
+  var val = event.target.value
+  var url = `explore.html?id=${tag},value=${val}`;
   window.open(url, "_self");
 }

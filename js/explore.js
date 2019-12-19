@@ -1,7 +1,9 @@
 window.onload = getData();
 
 function getData() {
-  var tag = window.location.href.split("?")[1].split("=")[1];
+  var tagArr = window.location.href.split("?")[1].split(",");
+  var tag = tagArr[0].split("=")[1];
+  var title = decodeURIComponent(tagArr[1].split("=")[1]);
   axios.get(`http://localhost:3004/${tag}`).then(function (response) {
     var data = response.data;
     var cssMode;
@@ -10,7 +12,7 @@ function getData() {
     } else {
       cssMode = "row";
     }
-    document.getElementById("explore-title").innerHTML += `${tag}`;
+    document.getElementById("explore-title").innerHTML += `${title}`;
     for (var x in data) {
       showFormatedData(data[x], cssMode, tag);
     }
@@ -58,6 +60,7 @@ function searchMovie() {
 
 function exploreMore() {
   var tag = event.target.getAttribute("data-id");
-  var url = `explore.html?id=${tag}`;
+  var val = event.target.value
+  var url = `explore.html?id=${tag},value=${val}`;
   window.open(url, "_self");
 }
