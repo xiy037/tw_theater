@@ -35,6 +35,13 @@
         "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2573582509.webp",
         "movieDate": "2019/12/25",
         "movieArea": "国产"
+      },
+      {
+        "id": 106,
+        "name": "坂本龙一：终曲",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2575892083.webp",
+        "movieDate": "2019/12/16",
+        "movieArea": "日韩"
       }
     ],
     "action": [
@@ -273,12 +280,64 @@
     ]
   },
   "hotList": {
-    "hotMovie": [],
-    "hotTV": []
+    "hotMovie": [
+      {
+        "id": 106,
+        "name": "坂本龙一：终曲",
+        "imgUrl": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2575892083.webp",
+        "movieDate": "2019/12/16",
+        "movieArea": "日韩"
+      }
+    ],
+    "hotTV": [
+      {
+      "id": 1101,
+      "name": "庆余年",
+      "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2575362797.webp",
+      "movieDate": "2019/11/26",
+      "movieArea": "国产",
+      "movieScore": 8.0
+    },
+    {
+      "id": 1301,
+      "name": "明星大侦探 第五季",
+      "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2574618624.webp",
+      "movieDate": "2019/11/08",
+      "movieArea": "国产",
+      "movieScore": 8.8
+    }
+  ]
   },
   "tvList": {
-    "tvSeries": [],
+    "tvSeries": [
+      {
+        "id": 1101,
+        "name": "庆余年",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2575362797.webp",
+        "movieDate": "2019/11/26",
+        "movieArea": "国产",
+        "movieScore": 8.0
+      },
+      {
+        "id": 1102,
+        "name": "鹤唳华亭",
+        "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2575073184.webp",
+        "movieDate": "2019/11/12",
+        "movieArea": "国产",
+        "movieScore": 7.5
+      }
+    ],
     "anime": [],
+    "entmtShow": [
+      {
+        "id": 1301,
+        "name": "明星大侦探 第五季",
+        "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2574618624.webp",
+        "movieDate": "2019/11/08",
+        "movieArea": "国产",
+        "movieScore": 8.8
+      }
+    ],
     "Documentary": []
   },
   "rankingList": {
@@ -310,7 +369,39 @@
     ]
   },
   "reviewList": {
-    "movieReview": [],
-    "tvReview": []
+    "movieReview": [
+      {
+        "id": 402,
+        "name": "哪吒之魔童降世",
+        "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2563780504.webp",
+        "movieDate": "2019/07/26",
+        "movieArea": "国产",
+        "movieScore": 8.5,
+        "userName": "影志",
+        "comment": "不成，功变成仁、《神仙的自我修养》、“申公公”、内服外敷效果都一样的解药…前面快笑死；指点江山笔、英气的敖丙、猪鼻子倒带器…中间各种神来之笔；“人心的偏见是座大山，你是谁只有你自己才说了算”、父母面前的生离死别…结尾又被感动得一把老泪。老妈的性格更立体，老爸李靖对哪吒说你的真实身份其实是…时，生怕他说出个“蛋”，这是这部毫不正经却又硬气热血至死的片子能干出来的事。集丧逼和燃于一身，在哪吒面前，没人帅的起来！锁定今年最佳国产动画。"
+      }
+    ],
+    "tvReview": [
+      {
+        "id": 1101,
+        "name": "庆余年",
+        "imgUrl": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2575362797.webp",
+        "movieDate": "2019/11/26",
+        "movieArea": "国产",
+        "movieScore": 8.0,
+        "userName": "leo119",
+        "comment": "没有理由不关注这部剧，毕竟这曾经是我最当年喜欢的小说之一。对于“史上最大反派”的庆帝由陈道明来演会感觉莫名的认可。当然，前段时间张若昀的整体表现也不错，希望这次会有带来更多的惊喜，毕竟庆余年这部剧来说，关注度太高了。恩恩，卡司阵容超强大啊！编剧王倦大大威武！！"
+      },
+      {
+        "id": 1301,
+        "name": "明星大侦探 第五季",
+        "imgUrl": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2574618624.webp",
+        "movieDate": "2019/11/08",
+        "movieArea": "国产",
+        "movieScore": 8.8,
+        "userName": "Irene",
+        "comment": "191122：海上钢琴师两案结束，可以可以！有搞笑有默契有化反，有高能有推理有逻辑，有温情有感动有拔高 191108：四星是观望感情分，后续看情况。老人的笑果可以，新人一般。可以预想后续的剧情会神展开，但是！就第一集而言！一个故事上中下三集不明智啊！这尼玛是侦探推理剧啊！我要看推理！破案！高能！这尼玛靠搞笑拖时间拖得过分了！"
+      }
+    ]
   }
 }

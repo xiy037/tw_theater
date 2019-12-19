@@ -27,3 +27,16 @@
 .explore-review-list {
   margin-left: 20px;
 }
+.explore-li {
+  margin-top: 10px;
+  text-align: justify;
+}
+.explore-score {
+  padding: 10px 0;
+  color: #ffa500;
+}
+.explore-user {
+  text-decoration: underline;
+  font-style: italic;
+  color: #3374ff;
+}

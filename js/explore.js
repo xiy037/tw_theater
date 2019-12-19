@@ -12,7 +12,7 @@ function getData() {
     }
     document.getElementById("explore-title").innerHTML += `${tag}`;
     for (var x in data) {
-      showFormatedData(data[x], cssMode);
+      showFormatedData(data[x], cssMode, tag);
     }
   }).catch(function (error) {
     console.log(error);
@@ -20,7 +20,7 @@ function getData() {
   })
 }
 
-function showFormatedData(arr, mode) {
+function showFormatedData(arr, mode, tag) {
   console.log(arr);
   var str = ``;
   if (mode === "row") {
@@ -38,7 +38,9 @@ function showFormatedData(arr, mode) {
         <a href="details.html?id=${arr[i].id}"><img class="explore-img" src=${arr[i].imgUrl} alt="img"></a>
         <ul class="explore-review-list">
           <li class="movie-name">${arr[i].name}</li>
-          <li>具体内容介绍</li>
+          <li class="explore-score">${arr[i].movieScore}</li>
+          ${tag === "reviewList"? `<li class="explore-li"><span class="explore-user">${arr[i].userName}</span>: ${arr[i].comment}</li>` 
+          : `<li class="explore-li">具体内容介绍</li>`}
         </ul> 
       </div>`
     }
