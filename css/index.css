@@ -81,8 +81,7 @@ footer {
 .movielist-box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  overflow: hidden;
+  overflow: scroll;
   height: 300px;
   border-top: 1px solid #ccdcff;
 }
@@ -92,6 +91,7 @@ ul {
 .movie-info {
   width: 17%;
   height: 100%;
+  margin: 0 15px;
   display: flex;
   flex-direction: column;
   margin-top: 10px;

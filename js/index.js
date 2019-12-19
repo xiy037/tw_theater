@@ -42,17 +42,19 @@ function searchMovie() {
 }
 
 function showTaggedMovieList() {
-  var val = event.target.value;
-  var id = event.currentTarget.getAttribute("data-id");
-  console.log(id);
-  var list = document.getElementById(id);
-  var arr = list.children;
-  console.log(arr);
-  for (var i = 0; i < arr.length; i++) {
-    if (!arr[i].getAttribute("data-tag").includes(val)) {
-      arr[i].style.display = "none";
-    } else {
-      arr[i].style.display = "block";
+  if (event.target.type === "button") {
+    var val = event.target.value;
+    var id = event.currentTarget.getAttribute("data-id");
+    console.log(id);
+    var list = document.getElementById(id);
+    var arr = list.children;
+    console.log(arr);
+    for (var i = 0; i < arr.length; i++) {
+      if (!arr[i].getAttribute("data-tag").includes(val)) {
+        arr[i].style.display = "none";
+      } else {
+        arr[i].style.display = "block";
+      }
     }
   }
 }
