@@ -1,0 +1,29 @@
+.explore-box1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.item-box1 {
+  width: 20%;
+  margin-top: 25px;
+  text-align: center;
+}
+.explore-img {
+  width: 150px;
+  height: 200px;
+}
+
+
+.explore-box2 {
+  display: flex;
+  flex-direction: column;
+}
+.item-box2 {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccdcff;
+}
+.explore-review-list {
+  margin-left: 20px;
+}

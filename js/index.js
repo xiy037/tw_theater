@@ -11,7 +11,7 @@ function getDatafromDB() {
     var dramaArr = response.data.drama;
     listInfo(dramaArr, "drama-list", "score");
   }).catch(function (error) {
-    alert("error!");
+    console.log(error);
   });
 }
 function listInfo(array, idName, tag) {

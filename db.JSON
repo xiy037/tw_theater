@@ -272,6 +272,10 @@
       }
     ]
   },
+  "hotList": {
+    "hotMovie": [],
+    "hotTV": []
+  },
   "tvList": {
     "tvSeries": [],
     "anime": [],

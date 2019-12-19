@@ -9,7 +9,7 @@ function getDetailsData() {
     listFormatedRelatedMovies(movie);
     listFormatedComments(movie);
   }).catch(function(error) {
-    console.log("error");
+    console.log(error);
     document.getElementById("details").innerHTML += "详情页面添加中......"
   });
 }
