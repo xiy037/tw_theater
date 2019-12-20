@@ -12,7 +12,9 @@
   width: 150px;
   height: 200px;
 }
-
+#content-title {
+  display: none;
+}
 
 .explore-box2 {
   display: flex;
@@ -39,4 +41,13 @@
   text-decoration: underline;
   font-style: italic;
   color: #3374ff;
+}
+.explore-movie-name {
+  margin-top: 8px;
+  color: #6696ff;
+  font-size: 15px;
+}
+.h2-title {
+  padding: 20px 0;
+  color: #4d4d4d;
 }

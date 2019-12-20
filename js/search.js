@@ -55,8 +55,10 @@ function searchMovie() {
 }
 
 function exploreMore() {
-  var tag = event.target.getAttribute("data-id");
-  var val = event.target.value
-  var url = `explore.html?id=${tag},value=${val}`;
-  window.open(url, "_self");
+  if (event.target.type === "button") {
+    var tag = event.target.getAttribute("data-id");
+    var val = event.target.value;
+    document.getElementById("content-box").innerHTML = "";
+    getData(tag, val);
+  }
 }

@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>movie details</title>
-    <link rel="stylesheet" type="text/css" href="css/details.css">
-    <link rel="stylesheet" type="text/css" href="css/search.css">
-    <script src="node_modules/axios/dist/axios.min.js"></script> 
-  </head>
 
-  <body>
-    <header class="header-box">
-      <a href="index.html" class="logo-link"><h1 class="logo">思沃影院</h1></a>
-      <input type="text" class="search-input" id="search-val" placeholder="请输入电影名">
-      <a id="search-link" class="link" onclick="searchMovie()"><input type="button" class="search-btn" value="搜索"></a>
-    </header>
-    <nav class="category-box" onclick="exploreMore()">
-      <input type="button" class="category-btn" value="热映" data-id="hotList">
-      <input type="button" class="category-btn" value="电影" data-id="movieList">
-      <input type="button" class="category-btn" value="电视剧" data-id="tvList">
-      <input type="button" class="category-btn" value="排行榜" data-id="rankingList">
-      <input type="button" class="category-btn" value="热门影评" data-id="reviewList">
-    </nav>
+<head>
+  <meta charset="utf-8">
+  <title>movie details</title>
+  <link rel="stylesheet" type="text/css" href="css/details.css">
+  <link rel="stylesheet" type="text/css" href="css/search.css">
+  <link rel="stylesheet" type="text/css" href="css/explore.css">
+  <script src="node_modules/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+  <header class="header-box">
+    <a href="index.html" class="logo-link">
+      <h1 class="logo">思沃影院</h1>
+    </a>
+    <input type="text" class="search-input" id="search-val" placeholder="请输入电影名">
+    <a id="search-link" class="link" onclick="searchMovie()"><input type="button" class="search-btn" value="搜索"></a>
+  </header>
+  <nav class="category-box" onclick="exploreMore()">
+    <input type="button" class="category-btn" value="热映" data-id="hotList">
+    <input type="button" class="category-btn" value="电影" data-id="movieList">
+    <input type="button" class="category-btn" value="电视剧" data-id="tvList">
+    <input type="button" class="category-btn" value="排行榜" data-id="rankingList">
+    <input type="button" class="category-btn" value="热门影评" data-id="reviewList">
+  </nav>
+  <h2 class="h2-title" id="content-title"></h2>
+  <div id="content-box">
     <h2 class="h2-title" id="search-title">搜索</h2>
     <div class="search-box" id="search-results">
     </div>
+  </div>
 
-    <footer>copyright@2019, all right reserved</footer>
-    <script type="text/javascript" src="js/search.js"></script>
-  </body>
+  <footer>copyright@2019, all right reserved</footer>
+  <script type="text/javascript" src="js/search.js"></script>
+  <script type="text/javascript" src="js/explore.js"></script>
+</body>
+
 </html>

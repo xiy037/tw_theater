@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>TW Theater</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css"> 
-    <script src="node_modules/axios/dist/axios.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-  </head>
 
-  <body>
-    <header class="header-box">
-      <h1 class="logo">思沃影院</h1>
-      <input type="text" class="search-input" id="search-val" placeholder="请输入电影名">
-      <a id="search-link" class="link" onclick="searchMovie()"><input type="button" class="search-btn" value="搜索"></a>
-    </header>
-    <nav class="category-box" onclick="exploreMore()">
-      <input type="button" class="category-btn" value="热映" data-id="hotList">
-      <input type="button" class="category-btn" value="电影" data-id="movieList">
-      <input type="button" class="category-btn" value="电视剧" data-id="tvList">
-      <input type="button" class="category-btn" value="排行榜" data-id="rankingList">
-      <input type="button" class="category-btn" value="热门影评" data-id="reviewList">
-    </nav>
+<head>
+  <title>TW Theater</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/explore.css">
+  <script src="node_modules/axios/dist/axios.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/explore.js"></script>
+</head>
+
+<body>
+  <header class="header-box">
+    <a href="index.html" class="logo-link"><h1 class="logo">思沃影院</h1></a>
+    <input type="text" class="search-input" id="search-val" placeholder="请输入电影名">
+    <a id="search-link" class="link" onclick="searchMovie()"><input type="button" class="search-btn" value="搜索"></a>
+  </header>
+  <nav class="category-box" onclick="exploreMore()">
+    <input type="button" class="category-btn" value="热映" data-id="hotList">
+    <input type="button" class="category-btn" value="电影" data-id="movieList">
+    <input type="button" class="category-btn" value="电视剧" data-id="tvList">
+    <input type="button" class="category-btn" value="排行榜" data-id="rankingList">
+    <input type="button" class="category-btn" value="热门影评" data-id="reviewList">
+  </nav>
+  <h2 class="h2-title" id="content-title"></h2>
+  <div id="content-box">
     <nav class="movielist-nav" data-id="comingSoon-list" onclick="showTaggedMovieList()">
       <h2 class="list-title">即将上映</h2>
       <input type="button" class="list-btn" value="热门">
@@ -59,7 +64,8 @@
     </nav>
     <div class="movielist-box" id="drama-list">
     </div>
+  </div>
+  <footer>copyright@2019, all right reserved</footer>
+</body>
 
-    <footer>copyright@2019, all right reserved</footer>
-  </body>
 </html>
