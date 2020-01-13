@@ -63,15 +63,14 @@ function listFormatedComments(obj) {
     </div>`
     if (arr[i].comment.length > 80) {
       str += `<div class="user-comment">
-      <span>${arr[i].comment.slice(0, 80)}</span>
-      <input class="show-more" type="button" value="...(展开)" onclick="showMore()">
-      <span class="hidden-comment">${arr[i].comment.slice(80)}
-      <input class="show-less" type="button" value="(收起)" onclick="showLess()">
+      <span class="comment-detail">${arr[i].comment.slice(0, 80)}</span> 
+      <span class="hidden-comment comment-detail" id=${i}-hidden>${arr[i].comment.slice(80)}
+      <span class="show-less" onclick="showLess()">(收起)</span>
       </span>
+      <span class="show-more" id=${i}-expand onclick="showMore()">...(展开)</span>
       </div>`
-      //有瑕疵，展开之后展开位置有一个空格。
     } else {
-      str += `<div class="user-comment">${arr[i].comment}</div>`
+      str += `<div class="comment-detail">${arr[i].comment}</div>`
     }
   }
   var commentsBox = document.getElementById("comments");
@@ -80,18 +79,20 @@ function listFormatedComments(obj) {
 
 function showMore() {
   event.target.style.display = "none";
-  event.target.parentNode.children[2].style.display = "inline";
+  let id = event.target.id.split("-")[0];
+  document.getElementById(`${id}-hidden`).style.display = "inline";
 }
 
 function showLess() {
   event.target.parentNode.style.display = "none";
-  event.target.parentNode.parentNode.children[1].style.display = "inline";
+  let id = event.target.parentNode.id.split("-")[0];
+  document.getElementById(`${id}-expand`).style.display  = "inline";
 }
 
 function submitSearch() {
   if (event.keyCode === 13 || event.target.id === "search-btn") {
     var val = document.getElementById("search-val").value;
-    window.open(`search.html?value=${val}`);
+    window.open(`search.html?value=${val}`, "_self");
   }
 }
 

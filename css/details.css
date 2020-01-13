@@ -153,6 +153,10 @@ ul {
 .user-comment {
   padding: 10px 0 20px 0;
   border-bottom: 1px solid #ccdcff;
+  font-size: 0;
+}
+.comment-detail {
+  font-size: 18px;
 }
 .link {
   text-decoration: none;

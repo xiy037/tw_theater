@@ -37,7 +37,7 @@ function listInfo(array, idName, tag) {
 function submitSearch() {
   if (event.keyCode === 13 || event.target.id === "search-btn") {
     var val = document.getElementById("search-val").value;
-    window.open(`search.html?value=${val}`);
+    window.open(`search.html?value=${val}`, "_self");
   }
 }
 
