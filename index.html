@@ -13,8 +13,8 @@
 <body>
   <header class="header-box">
     <a href="index.html" class="logo-link"><h1 class="logo">思沃影院</h1></a>
-    <input type="text" class="search-input" id="search-val" placeholder="请输入电影名">
-    <a id="search-link" class="link" onclick="searchMovie()"><input type="button" class="search-btn" value="搜索"></a>
+    <input type="text" class="search-input" id="search-val" placeholder="请输入电影名" onkeydown="submitSearch()">
+    <input type="button" class="search-btn" id="search-btn" value="搜索" onclick="submitSearch()">
   </header>
   <nav class="category-box" onclick="exploreMore()">
     <input type="button" class="category-btn" value="热映" data-id="hotList">

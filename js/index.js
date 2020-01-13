@@ -34,11 +34,11 @@ function listInfo(array, idName, tag) {
   box.innerHTML = str;
 }
 
-function searchMovie() {
-  var a = event.target.parentNode;
-  var val = document.getElementById("search-val").value;
-  a.href = `search.html?value=${val}`
-  document.getElementById("search-val").value = "";
+function submitSearch() {
+  if (event.keyCode === 13 || event.target.id === "search-btn") {
+    var val = document.getElementById("search-val").value;
+    window.open(`search.html?value=${val}`);
+  }
 }
 
 function showTaggedMovieList() {
